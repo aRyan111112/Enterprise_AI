@@ -1,0 +1,19 @@
+{
+    "sqltools.connections": [
+        {
+            "pgOptions": {
+                "ssl": {
+                    "rejectUnauthorized": true
+                }
+            },
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "dpg-dbmtbtu1egvs73di8740-a.virginia-postgres.render.com",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "Render Postgres",
+            "database": "enterprise_ai_3d6t",
+            "username": "enterprise_user"
+        }
+    ]
+}
