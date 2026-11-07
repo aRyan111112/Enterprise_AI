@@ -14,7 +14,7 @@ class Settings(BaseSettings):
     embed_dim:int=1024
     max_upload_bytes:int=10485760
     pinecone_api_key:str=''
-    pinecone_index_name:str='atlas-enterprise-ai-index'
+    pinecone_index_name:str='enterprise-ai-index'
     pinecone_ready_timeout:int=180
     min_relevance:float=0.25
     hitl_enabled:bool=True
